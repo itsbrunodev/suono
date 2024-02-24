@@ -9,6 +9,7 @@ export function Navbar() {
       <Link
         className="flex items-center gap-1 transition-opacity hover:opacity-80"
         href="/"
+        prefetch={false}
       >
         <h1 className="font-semibold text-white">suono</h1>
         <p className="rounded-[4px] bg-zinc-800 px-1 py-0.5 text-xs font-light">

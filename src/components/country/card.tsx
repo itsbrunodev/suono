@@ -79,7 +79,7 @@ export function CountryCard({
               ).name;
 
               return (
-                <Link href={`/${toKebabCase(borderingCountryName)}`} key={i}>
+                <Link href={`/${toKebabCase(borderingCountryName)}`} prefetch={false} key={i}>
                   <Button
                     className="flex w-full items-center justify-start gap-1.5 truncate whitespace-nowrap rounded-md"
                     key={i}
