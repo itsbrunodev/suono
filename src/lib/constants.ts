@@ -539,7 +539,7 @@ export const APP = {
 };
 
 export const URLS = {
-  base: "https://similar-songs.itsbruno.dev",
+  base: "https://suono.itsbruno.dev",
   spotify: {
     api: {
       playlists: SPOTIFY_API_URL + "/playlists",
@@ -549,7 +549,7 @@ export const URLS = {
     },
   },
   navbar: {
-    GitHub: "https://github.com/itsbruno/suono",
+    GitHub: "https://github.com/itsbrunodev/suono",
   }
 };
 
