@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: theme("colors.zinc.700");
+  background-clip: content-box;
+  border: 3px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 20px;
+  background: theme("colors.zinc.600");
+  background-clip: content-box;
+  border: 3px solid transparent;
+}
+
+@layer base {
+  * {
+    @apply m-0 box-border scroll-smooth p-0;
+  }
+
+  .full {
+    @apply h-full w-full;
+  }
+
+  .center {
+    @apply items-center justify-center;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
