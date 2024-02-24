@@ -38,7 +38,7 @@ export default function RootLayout({
           className="relative min-h-full overflow-hidden"
           vaul-drawer-wrapper=""
         >
-          <div className="absolute left-1/2 top-1/2 z-10 h-full w-full -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-none border border-zinc-800 bg-zinc-900/60 bg-clip-padding backdrop-blur-lg backdrop-filter md:h-[90%] md:w-[90%] md:rounded-xl">
+          <div className="absolute left-1/2 top-1/2 z-10 h-full w-full -translate-x-1/2 -translate-y-1/2 overflow-y-auto rounded-none md:border md:border-zinc-800 bg-zinc-900/60 bg-clip-padding backdrop-blur-lg backdrop-filter md:h-[90%] md:w-[90%] md:rounded-xl">
             <Navbar />
             {children}
           </div>
