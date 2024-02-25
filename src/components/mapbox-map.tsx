@@ -50,7 +50,7 @@ export function MapboxMap() {
     <Map
       ref={ref}
       mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
-      mapStyle={process.env.NEXT_PUBLIC_MAPBOX_STYLE}
+      mapStyle={process.env.NEXT_PUBLIC_MAPBOX_STYLE || "mapbox://styles/mapbox/dark-v11"}
       initialViewState={{
         latitude: 0,
         longitude: 0,
