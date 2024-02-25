@@ -116,6 +116,7 @@ export function CountryList() {
               {countries.map((country, countryIndex) => (
                 <Link
                   href={`/${country.name.toLowerCase().replace(/ /g, "-")}`}
+                  prefetch={false}
                   key={countryIndex}
                 >
                   <Button
